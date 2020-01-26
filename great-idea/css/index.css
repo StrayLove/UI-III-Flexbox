@@ -60,7 +60,116 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	font-size: 30px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Your code starts here! */
+body {
+	width: 1024px;
+	padding: 0 75px;
+}
+
+nav ul{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+.head-content{
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+}
+
+.first-content p{
+	text-align: left;
+}
+
+.bottom-content{
+	text-align: left;
+}
+
+.header-right{
+	width: 49%;
+}
+
+.header-right img{
+  float: right;
+  margin: 50px 0;
+}
+
+.header-right:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.header-left {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	vertical-align: top;
+	padding: 75px;
+	text-align: center;
+}
+
+.header-left button{
+	background: transparent;
+	padding: 7px 45px;
+}
+
+button a{
+	text-decoration: none;
+	color: black;
+}
+ 
+footer {
+	padding: 20px 0 50px;
+	text-align: center;
+}
+
+section{
+	padding: 40px 0;
+}
+
+header h1{
+	font-size: 4.5em;
+}
+
+.bottom-content{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+}	
+
+.middle-content {
+  padding: 40px 0;
+}
+
+.first-content{
+  display: flex;
+}
+
+.top-content{
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.content-two{
+	display: flex;
+	
+}
+
+.bottom-content{
+	
+}
